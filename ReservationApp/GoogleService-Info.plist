@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>228299584643-nctmqsqtqqafi1l3q46kojf315lj08di.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.228299584643-nctmqsqtqqafi1l3q46kojf315lj08di</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDFV6t67ma6nbCYrR4ONINPKAymBkH_GNI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>228299584643</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kz.ReservationApp</string>
+	<key>PROJECT_ID</key>
+	<string>reservation-be</string>
+	<key>STORAGE_BUCKET</key>
+	<string>reservation-be.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:228299584643:ios:dd8a0ee9b483a5f3cb57b6</string>
+</dict>
+</plist>

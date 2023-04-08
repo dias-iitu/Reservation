@@ -9,21 +9,54 @@
 /* Begin PBXBuildFile section */
 		009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780429DD0E2300A54837 /* AppDelegate.swift */; };
 		009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780629DD0E2300A54837 /* SceneDelegate.swift */; };
-		009F780929DD0E2300A54837 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780829DD0E2300A54837 /* MainViewController.swift */; };
+		009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780829DD0E2300A54837 /* LoginViewController.swift */; };
 		009F780C29DD0E2300A54837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009F780A29DD0E2300A54837 /* Main.storyboard */; };
 		009F780E29DD0E2700A54837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009F780D29DD0E2700A54837 /* Assets.xcassets */; };
 		009F781129DD0E2700A54837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009F780F29DD0E2700A54837 /* LaunchScreen.storyboard */; };
+		00B14B7E29DF47ED0059CD83 /* UILabelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B7D29DF47ED0059CD83 /* UILabelHelper.swift */; };
+		00B14B8029DFB4AF0059CD83 /* UITextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B7F29DFB4AF0059CD83 /* UITextFieldHelper.swift */; };
+		00B14B8229DFB5DA0059CD83 /* UIStackViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8129DFB5DA0059CD83 /* UIStackViewHelper.swift */; };
+		00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8329DFC0620059CD83 /* UIButtonHelper.swift */; };
+		00B14B8829DFEE430059CD83 /* UIImageViewHelpler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8729DFEE430059CD83 /* UIImageViewHelpler.swift */; };
+		00B14B8A29E0088D0059CD83 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8929E0088D0059CD83 /* UIViewHelper.swift */; };
+		00F1473529E01E9200B50B15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00F1473429E01E9200B50B15 /* GoogleService-Info.plist */; };
+		00F1473729E0301000B50B15 /* Pods_ReservationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BFE10C5125D5D43849BA34 /* Pods_ReservationApp.framework */; };
+		00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474329E03DE400B50B15 /* LoginViewModel.swift */; };
+		00F1474829E04A4C00B50B15 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474729E04A4C00B50B15 /* Users.swift */; };
+		00F1474F29E12C3C00B50B15 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474E29E12C3C00B50B15 /* ServiceManager.swift */; };
+		00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475029E12ECD00B50B15 /* RegistrationViewController.swift */; };
+		00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475229E1434F00B50B15 /* RegistrationViewModel.swift */; };
+		00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475C29E185C200B50B15 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		009F780129DD0E2300A54837 /* ReservationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009F780429DD0E2300A54837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009F780629DD0E2300A54837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		009F780829DD0E2300A54837 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		009F780829DD0E2300A54837 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		009F780B29DD0E2300A54837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		009F780D29DD0E2700A54837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009F781029DD0E2700A54837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009F781229DD0E2700A54837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B14B7D29DF47ED0059CD83 /* UILabelHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelHelper.swift; sourceTree = "<group>"; };
+		00B14B7F29DFB4AF0059CD83 /* UITextFieldHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldHelper.swift; sourceTree = "<group>"; };
+		00B14B8129DFB5DA0059CD83 /* UIStackViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewHelper.swift; sourceTree = "<group>"; };
+		00B14B8329DFC0620059CD83 /* UIButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonHelper.swift; sourceTree = "<group>"; };
+		00B14B8729DFEE430059CD83 /* UIImageViewHelpler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewHelpler.swift; sourceTree = "<group>"; };
+		00B14B8929E0088D0059CD83 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		00F1473429E01E9200B50B15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00F1473A29E0301F00B50B15 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F1473D29E0302700B50B15 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F1474029E0303000B50B15 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F1474329E03DE400B50B15 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		00F1474729E04A4C00B50B15 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		00F1474E29E12C3C00B50B15 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		00F1475029E12ECD00B50B15 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		00F1475229E1434F00B50B15 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		00F1475C29E185C200B50B15 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4654A77CC2F3977F4E3653DC /* Pods-ReservationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationApp.release.xcconfig"; path = "Target Support Files/Pods-ReservationApp/Pods-ReservationApp.release.xcconfig"; sourceTree = "<group>"; };
+		70BFE10C5125D5D43849BA34 /* Pods_ReservationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReservationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5BA381ED153F34DCD95685 /* Pods-ReservationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationApp.debug.xcconfig"; path = "Target Support Files/Pods-ReservationApp/Pods-ReservationApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F1473729E0301000B50B15 /* Pods_ReservationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,8 @@
 			children = (
 				009F780329DD0E2300A54837 /* ReservationApp */,
 				009F780229DD0E2300A54837 /* Products */,
+				EC4FC9EDFA1AD605028E22CE /* Pods */,
+				D583A9CCC85C16254FE1F215 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,40 +92,37 @@
 		009F780329DD0E2300A54837 /* ReservationApp */ = {
 			isa = PBXGroup;
 			children = (
+				00F1475829E1858D00B50B15 /* MenuModule */,
+				00F1474D29E12C1D00B50B15 /* ServiceManager */,
+				00F1474929E04B6500B50B15 /* RegistrationModule */,
+				00B14B7C29DF47CD0059CD83 /* Helpers */,
 				009F781D29DD157500A54837 /* EntryModule */,
-				009F781929DD154400A54837 /* RegistrationModule */,
+				009F781929DD154400A54837 /* LoginModule */,
 				009F780429DD0E2300A54837 /* AppDelegate.swift */,
 				009F780629DD0E2300A54837 /* SceneDelegate.swift */,
-				009F781829DD153800A54837 /* View */,
 				009F780A29DD0E2300A54837 /* Main.storyboard */,
 				009F780D29DD0E2700A54837 /* Assets.xcassets */,
 				009F780F29DD0E2700A54837 /* LaunchScreen.storyboard */,
 				009F781229DD0E2700A54837 /* Info.plist */,
+				00F1473429E01E9200B50B15 /* GoogleService-Info.plist */,
 			);
 			path = ReservationApp;
 			sourceTree = "<group>";
 		};
-		009F781829DD153800A54837 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				009F780829DD0E2300A54837 /* MainViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		009F781929DD154400A54837 /* RegistrationModule */ = {
+		009F781929DD154400A54837 /* LoginModule */ = {
 			isa = PBXGroup;
 			children = (
 				009F781C29DD156B00A54837 /* Model */,
 				009F781B29DD156200A54837 /* View */,
 				009F781A29DD155900A54837 /* ViewModel */,
 			);
-			path = RegistrationModule;
+			path = LoginModule;
 			sourceTree = "<group>";
 		};
 		009F781A29DD155900A54837 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				00F1474329E03DE400B50B15 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -97,6 +130,7 @@
 		009F781B29DD156200A54837 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				009F780829DD0E2300A54837 /* LoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +138,7 @@
 		009F781C29DD156B00A54837 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				00F1474729E04A4C00B50B15 /* Users.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +174,112 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		00B14B7C29DF47CD0059CD83 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00B14B7D29DF47ED0059CD83 /* UILabelHelper.swift */,
+				00B14B7F29DFB4AF0059CD83 /* UITextFieldHelper.swift */,
+				00B14B8129DFB5DA0059CD83 /* UIStackViewHelper.swift */,
+				00B14B8329DFC0620059CD83 /* UIButtonHelper.swift */,
+				00B14B8729DFEE430059CD83 /* UIImageViewHelpler.swift */,
+				00B14B8929E0088D0059CD83 /* UIViewHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		00F1474929E04B6500B50B15 /* RegistrationModule */ = {
+			isa = PBXGroup;
+			children = (
+				00F1474A29E04B7000B50B15 /* Model */,
+				00F1474C29E04B8100B50B15 /* View */,
+				00F1474B29E04B7800B50B15 /* ViewModel */,
+			);
+			path = RegistrationModule;
+			sourceTree = "<group>";
+		};
+		00F1474A29E04B7000B50B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00F1474B29E04B7800B50B15 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00F1475229E1434F00B50B15 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00F1474C29E04B8100B50B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00F1475029E12ECD00B50B15 /* RegistrationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00F1474D29E12C1D00B50B15 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				00F1474E29E12C3C00B50B15 /* ServiceManager.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		00F1475829E1858D00B50B15 /* MenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				00F1475B29E185AF00B50B15 /* Model */,
+				00F1475A29E185A900B50B15 /* View */,
+				00F1475929E1859F00B50B15 /* ViewModel */,
+			);
+			path = MenuModule;
+			sourceTree = "<group>";
+		};
+		00F1475929E1859F00B50B15 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00F1475A29E185A900B50B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00F1475C29E185C200B50B15 /* MenuViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00F1475B29E185AF00B50B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D583A9CCC85C16254FE1F215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F1474029E0303000B50B15 /* FirebaseCore.framework */,
+				00F1473D29E0302700B50B15 /* FirebaseFirestore.framework */,
+				00F1473A29E0301F00B50B15 /* FirebaseAuth.framework */,
+				70BFE10C5125D5D43849BA34 /* Pods_ReservationApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4FC9EDFA1AD605028E22CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BA381ED153F34DCD95685 /* Pods-ReservationApp.debug.xcconfig */,
+				4654A77CC2F3977F4E3653DC /* Pods-ReservationApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 009F781529DD0E2700A54837 /* Build configuration list for PBXNativeTarget "ReservationApp" */;
 			buildPhases = (
+				FE5A041FB76EE6DBADA26493 /* [CP] Check Pods Manifest.lock */,
 				009F77FD29DD0E2200A54837 /* Sources */,
 				009F77FE29DD0E2200A54837 /* Frameworks */,
 				009F77FF29DD0E2200A54837 /* Resources */,
+				F5CC5BDF2918D6B3930287D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,20 +342,75 @@
 			files = (
 				009F781129DD0E2700A54837 /* LaunchScreen.storyboard in Resources */,
 				009F780E29DD0E2700A54837 /* Assets.xcassets in Resources */,
+				00F1473529E01E9200B50B15 /* GoogleService-Info.plist in Resources */,
 				009F780C29DD0E2300A54837 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F5CC5BDF2918D6B3930287D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5A041FB76EE6DBADA26493 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReservationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		009F77FD29DD0E2200A54837 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009F780929DD0E2300A54837 /* MainViewController.swift in Sources */,
+				00B14B7E29DF47ED0059CD83 /* UILabelHelper.swift in Sources */,
+				00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */,
+				00B14B8229DFB5DA0059CD83 /* UIStackViewHelper.swift in Sources */,
+				00B14B8029DFB4AF0059CD83 /* UITextFieldHelper.swift in Sources */,
+				00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */,
+				00B14B8829DFEE430059CD83 /* UIImageViewHelpler.swift in Sources */,
+				00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */,
+				009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */,
+				00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */,
+				00B14B8A29E0088D0059CD83 /* UIViewHelper.swift in Sources */,
 				009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */,
+				00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */,
 				009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */,
+				00F1474829E04A4C00B50B15 /* Users.swift in Sources */,
+				00F1474F29E12C3C00B50B15 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +552,7 @@
 		};
 		009F781629DD0E2700A54837 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5BA381ED153F34DCD95685 /* Pods-ReservationApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -367,6 +566,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,6 +582,7 @@
 		};
 		009F781729DD0E2700A54837 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4654A77CC2F3977F4E3653DC /* Pods-ReservationApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +596,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
