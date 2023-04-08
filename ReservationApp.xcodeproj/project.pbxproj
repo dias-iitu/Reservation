@@ -291,7 +291,6 @@
 				009F77FD29DD0E2200A54837 /* Sources */,
 				009F77FE29DD0E2200A54837 /* Frameworks */,
 				009F77FF29DD0E2200A54837 /* Resources */,
-				F5CC5BDF2918D6B3930287D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -350,23 +349,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F5CC5BDF2918D6B3930287D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FE5A041FB76EE6DBADA26493 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
