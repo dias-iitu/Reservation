@@ -6,5 +6,9 @@ target 'ReservationApp' do
   use_frameworks!
 
   # Pods for ReservationApp
+	
+   pod 'FirebaseAuth'
+   pod 'FirebaseFirestore'
+   pod 'Firebase'
 
 end

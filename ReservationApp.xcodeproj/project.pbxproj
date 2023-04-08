@@ -18,7 +18,6 @@
 		00B14B8229DFB5DA0059CD83 /* UIStackViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8129DFB5DA0059CD83 /* UIStackViewHelper.swift */; };
 		00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8329DFC0620059CD83 /* UIButtonHelper.swift */; };
 		00B14B8829DFEE430059CD83 /* UIImageViewHelpler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8729DFEE430059CD83 /* UIImageViewHelpler.swift */; };
-		00B14B8A29E0088D0059CD83 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B14B8929E0088D0059CD83 /* UIViewHelper.swift */; };
 		00F1473529E01E9200B50B15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00F1473429E01E9200B50B15 /* GoogleService-Info.plist */; };
 		00F1473729E0301000B50B15 /* Pods_ReservationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BFE10C5125D5D43849BA34 /* Pods_ReservationApp.framework */; };
 		00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474329E03DE400B50B15 /* LoginViewModel.swift */; };
@@ -29,6 +28,8 @@
 		00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475C29E185C200B50B15 /* MenuViewController.swift */; };
 		00F1476329E1909C00B50B15 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476229E1909C00B50B15 /* Menu.swift */; };
 		00F1476529E190BA00B50B15 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476429E190BA00B50B15 /* MenuViewModel.swift */; };
+		00F1476929E1926700B50B15 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476829E1926700B50B15 /* UIViewHelper.swift */; };
+		00F1476B29E1A0BE00B50B15 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476A29E1A0BE00B50B15 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +46,6 @@
 		00B14B8129DFB5DA0059CD83 /* UIStackViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewHelper.swift; sourceTree = "<group>"; };
 		00B14B8329DFC0620059CD83 /* UIButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonHelper.swift; sourceTree = "<group>"; };
 		00B14B8729DFEE430059CD83 /* UIImageViewHelpler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewHelpler.swift; sourceTree = "<group>"; };
-		00B14B8929E0088D0059CD83 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
 		00F1473429E01E9200B50B15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00F1473A29E0301F00B50B15 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F1473D29E0302700B50B15 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +58,8 @@
 		00F1475C29E185C200B50B15 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		00F1476229E1909C00B50B15 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Menu.swift; sourceTree = "<group>"; };
 		00F1476429E190BA00B50B15 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewModel.swift; path = ReservationApp/MenuModule/View/MenuViewModel.swift; sourceTree = SOURCE_ROOT; };
+		00F1476829E1926700B50B15 /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		00F1476A29E1A0BE00B50B15 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingViewController.swift; path = ReservationApp/MenuModule/View/OnboardingViewController.swift; sourceTree = SOURCE_ROOT; };
 		4654A77CC2F3977F4E3653DC /* Pods-ReservationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationApp.release.xcconfig"; path = "Target Support Files/Pods-ReservationApp/Pods-ReservationApp.release.xcconfig"; sourceTree = "<group>"; };
 		70BFE10C5125D5D43849BA34 /* Pods_ReservationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReservationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5BA381ED153F34DCD95685 /* Pods-ReservationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationApp.debug.xcconfig"; path = "Target Support Files/Pods-ReservationApp/Pods-ReservationApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		009F781F29DD158600A54837 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00F1476A29E1A0BE00B50B15 /* OnboardingViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,7 +189,7 @@
 				00B14B8129DFB5DA0059CD83 /* UIStackViewHelper.swift */,
 				00B14B8329DFC0620059CD83 /* UIButtonHelper.swift */,
 				00B14B8729DFEE430059CD83 /* UIImageViewHelpler.swift */,
-				00B14B8929E0088D0059CD83 /* UIViewHelper.swift */,
+				00F1476829E1926700B50B15 /* UIViewHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				009F77FD29DD0E2200A54837 /* Sources */,
 				009F77FE29DD0E2200A54837 /* Frameworks */,
 				009F77FF29DD0E2200A54837 /* Resources */,
+				F8C34CC80A6A56485DA4F869 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,6 +359,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		F8C34CC80A6A56485DA4F869 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReservationApp/Pods-ReservationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FE5A041FB76EE6DBADA26493 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,13 +408,14 @@
 				00B14B7E29DF47ED0059CD83 /* UILabelHelper.swift in Sources */,
 				00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */,
 				00B14B8229DFB5DA0059CD83 /* UIStackViewHelper.swift in Sources */,
+				00F1476929E1926700B50B15 /* UIViewHelper.swift in Sources */,
 				00B14B8029DFB4AF0059CD83 /* UITextFieldHelper.swift in Sources */,
 				00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */,
 				00B14B8829DFEE430059CD83 /* UIImageViewHelpler.swift in Sources */,
+				00F1476B29E1A0BE00B50B15 /* OnboardingViewController.swift in Sources */,
 				00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */,
 				009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */,
 				00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */,
-				00B14B8A29E0088D0059CD83 /* UIViewHelper.swift in Sources */,
 				00F1476329E1909C00B50B15 /* Menu.swift in Sources */,
 				009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */,
 				00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */,
