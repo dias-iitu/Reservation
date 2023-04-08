@@ -27,6 +27,8 @@
 		00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475029E12ECD00B50B15 /* RegistrationViewController.swift */; };
 		00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475229E1434F00B50B15 /* RegistrationViewModel.swift */; };
 		00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475C29E185C200B50B15 /* MenuViewController.swift */; };
+		00F1476329E1909C00B50B15 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476229E1909C00B50B15 /* Menu.swift */; };
+		00F1476529E190BA00B50B15 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476429E190BA00B50B15 /* MenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		00F1475029E12ECD00B50B15 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		00F1475229E1434F00B50B15 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		00F1475C29E185C200B50B15 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		00F1476229E1909C00B50B15 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Menu.swift; sourceTree = "<group>"; };
+		00F1476429E190BA00B50B15 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewModel.swift; path = ReservationApp/MenuModule/View/MenuViewModel.swift; sourceTree = SOURCE_ROOT; };
 		4654A77CC2F3977F4E3653DC /* Pods-ReservationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationApp.release.xcconfig"; path = "Target Support Files/Pods-ReservationApp/Pods-ReservationApp.release.xcconfig"; sourceTree = "<group>"; };
 		70BFE10C5125D5D43849BA34 /* Pods_ReservationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReservationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5BA381ED153F34DCD95685 /* Pods-ReservationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationApp.debug.xcconfig"; path = "Target Support Files/Pods-ReservationApp/Pods-ReservationApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -241,6 +245,7 @@
 		00F1475929E1859F00B50B15 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				00F1476429E190BA00B50B15 /* MenuViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 		00F1475B29E185AF00B50B15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				00F1476229E1909C00B50B15 /* Menu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -388,9 +394,11 @@
 				009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */,
 				00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */,
 				00B14B8A29E0088D0059CD83 /* UIViewHelper.swift in Sources */,
+				00F1476329E1909C00B50B15 /* Menu.swift in Sources */,
 				009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */,
 				00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */,
 				009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */,
+				00F1476529E190BA00B50B15 /* MenuViewModel.swift in Sources */,
 				00F1474829E04A4C00B50B15 /* Users.swift in Sources */,
 				00F1474F29E12C3C00B50B15 /* ServiceManager.swift in Sources */,
 			);
