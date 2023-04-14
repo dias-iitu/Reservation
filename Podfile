@@ -10,5 +10,4 @@ target 'ReservationApp' do
    pod 'FirebaseAuth'
    pod 'FirebaseFirestore'
    pod 'Firebase'
-
 end

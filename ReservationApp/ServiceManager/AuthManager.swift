@@ -1,5 +1,6 @@
 import Foundation
 import FirebaseAuth
+import UIKit
 
 class AuthService {
     
@@ -10,11 +11,9 @@ class AuthService {
         return auth.currentUser
     }
     
-    
-    
     func singUp(email: String, password: String, nameAndSurname: String, phoneNumber: String, completion: @escaping (Result<User, Error>) -> ()) {
         auth.createUser(withEmail: email, password: password) { result, error in
-            if let result = result{
+            if let result = result {
                 completion(.success(result.user))
             } else if let error = error {
                 completion(.failure(error))
@@ -33,4 +32,3 @@ class AuthService {
         }
     }
 }
-

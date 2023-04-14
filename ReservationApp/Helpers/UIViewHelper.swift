@@ -17,4 +17,10 @@ extension UIView {
         self.layer.cornerRadius = 15
         self.translatesAutoresizingMaskIntoConstraints = false
     }
+    
+    convenience init(backgroundColor: UIColor) {
+        self.init(frame: .zero)
+        self.backgroundColor = backgroundColor
+        self.translatesAutoresizingMaskIntoConstraints = false
+    }
 }

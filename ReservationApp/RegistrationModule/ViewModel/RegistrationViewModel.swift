@@ -9,7 +9,7 @@ import Foundation
 import FirebaseAuth
 
 class RegistrationViewModel {
-
+    
     func createNewUser(fullName: String, password: String, phoneNumber: String, email: String) {
         AuthService.shared.singUp(
             email: email,

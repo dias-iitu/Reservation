@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003852B729E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 003852B629E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist */; };
+		003852BF29E40FB1004FA967 /* GoogleSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852BE29E40FB1004FA967 /* GoogleSignInModel.swift */; };
+		003852C229E439BE004FA967 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852C129E439BE004FA967 /* MenuItem.swift */; };
+		003852E729E54902004FA967 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852E629E54902004FA967 /* MenuHeader.swift */; };
+		003852E929E5599F004FA967 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852E829E5599E004FA967 /* MainTabBar.swift */; };
+		003852EB29E59F81004FA967 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852EA29E59F81004FA967 /* CategoryCell.swift */; };
+		003852EE29E5A551004FA967 /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852ED29E5A551004FA967 /* CategoryCollectionCell.swift */; };
+		003852F029E5A688004FA967 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852EF29E5A688004FA967 /* Category.swift */; };
+		003852F229E5ADFA004FA967 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852F129E5ADFA004FA967 /* FirestoreManager.swift */; };
 		009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780429DD0E2300A54837 /* AppDelegate.swift */; };
 		009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780629DD0E2300A54837 /* SceneDelegate.swift */; };
 		009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780829DD0E2300A54837 /* LoginViewController.swift */; };
@@ -22,17 +31,27 @@
 		00F1473729E0301000B50B15 /* Pods_ReservationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BFE10C5125D5D43849BA34 /* Pods_ReservationApp.framework */; };
 		00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474329E03DE400B50B15 /* LoginViewModel.swift */; };
 		00F1474829E04A4C00B50B15 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474729E04A4C00B50B15 /* Users.swift */; };
-		00F1474F29E12C3C00B50B15 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474E29E12C3C00B50B15 /* ServiceManager.swift */; };
+		00F1474F29E12C3C00B50B15 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1474E29E12C3C00B50B15 /* AuthManager.swift */; };
 		00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475029E12ECD00B50B15 /* RegistrationViewController.swift */; };
 		00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475229E1434F00B50B15 /* RegistrationViewModel.swift */; };
 		00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1475C29E185C200B50B15 /* MenuViewController.swift */; };
-		00F1476329E1909C00B50B15 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476229E1909C00B50B15 /* Menu.swift */; };
 		00F1476529E190BA00B50B15 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476429E190BA00B50B15 /* MenuViewModel.swift */; };
 		00F1476929E1926700B50B15 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476829E1926700B50B15 /* UIViewHelper.swift */; };
 		00F1476B29E1A0BE00B50B15 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1476A29E1A0BE00B50B15 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003852B629E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		003852BE29E40FB1004FA967 /* GoogleSignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoogleSignInModel.swift; path = ReservationApp/Utilities/GoogleSignInModel.swift; sourceTree = SOURCE_ROOT; };
+		003852C129E439BE004FA967 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = ReservationApp/Utilities/MenuItem.swift; sourceTree = SOURCE_ROOT; };
+		003852E629E54902004FA967 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
+		003852E829E5599E004FA967 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		003852EA29E59F81004FA967 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		003852ED29E5A551004FA967 /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionCell.swift; sourceTree = "<group>"; };
+		003852EF29E5A688004FA967 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ReservationApp/MenuModule/View/Cells/CollectionCell/Category.swift; sourceTree = SOURCE_ROOT; };
+		003852F129E5ADFA004FA967 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		00565A4D29E6B963001D9DC5 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00565A5129E6BB9E001D9DC5 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		009F780129DD0E2300A54837 /* ReservationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009F780429DD0E2300A54837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009F780629DD0E2300A54837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,11 +71,10 @@
 		00F1474029E0303000B50B15 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F1474329E03DE400B50B15 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		00F1474729E04A4C00B50B15 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
-		00F1474E29E12C3C00B50B15 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		00F1474E29E12C3C00B50B15 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		00F1475029E12ECD00B50B15 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		00F1475229E1434F00B50B15 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		00F1475C29E185C200B50B15 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		00F1476229E1909C00B50B15 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Menu.swift; sourceTree = "<group>"; };
 		00F1476429E190BA00B50B15 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewModel.swift; path = ReservationApp/MenuModule/View/MenuViewModel.swift; sourceTree = SOURCE_ROOT; };
 		00F1476829E1926700B50B15 /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
 		00F1476A29E1A0BE00B50B15 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingViewController.swift; path = ReservationApp/MenuModule/View/OnboardingViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -77,6 +95,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		003852C329E439D7004FA967 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				003852EA29E59F81004FA967 /* CategoryCell.swift */,
+				003852EC29E5A526004FA967 /* CollectionCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		003852C429E43A00004FA967 /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+				003852E829E5599E004FA967 /* MainTabBar.swift */,
+			);
+			path = TabBarModule;
+			sourceTree = "<group>";
+		};
+		003852E529E548D3004FA967 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				003852E629E54902004FA967 /* MenuHeader.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		003852EC29E5A526004FA967 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				003852ED29E5A551004FA967 /* CategoryCollectionCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
 		009F77F829DD0E2200A54837 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +149,7 @@
 		009F780329DD0E2300A54837 /* ReservationApp */ = {
 			isa = PBXGroup;
 			children = (
+				003852C429E43A00004FA967 /* TabBarModule */,
 				00F1475829E1858D00B50B15 /* MenuModule */,
 				00F1474D29E12C1D00B50B15 /* ServiceManager */,
 				00F1474929E04B6500B50B15 /* RegistrationModule */,
@@ -111,6 +163,7 @@
 				009F780F29DD0E2700A54837 /* LaunchScreen.storyboard */,
 				009F781229DD0E2700A54837 /* Info.plist */,
 				00F1473429E01E9200B50B15 /* GoogleService-Info.plist */,
+				003852B629E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist */,
 			);
 			path = ReservationApp;
 			sourceTree = "<group>";
@@ -207,6 +260,7 @@
 		00F1474A29E04B7000B50B15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				003852BE29E40FB1004FA967 /* GoogleSignInModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,7 +284,8 @@
 		00F1474D29E12C1D00B50B15 /* ServiceManager */ = {
 			isa = PBXGroup;
 			children = (
-				00F1474E29E12C3C00B50B15 /* ServiceManager.swift */,
+				00F1474E29E12C3C00B50B15 /* AuthManager.swift */,
+				003852F129E5ADFA004FA967 /* FirestoreManager.swift */,
 			);
 			path = ServiceManager;
 			sourceTree = "<group>";
@@ -256,6 +311,8 @@
 		00F1475A29E185A900B50B15 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				003852E529E548D3004FA967 /* HeaderView */,
+				003852C329E439D7004FA967 /* Cells */,
 				00F1475C29E185C200B50B15 /* MenuViewController.swift */,
 			);
 			path = View;
@@ -264,7 +321,8 @@
 		00F1475B29E185AF00B50B15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				00F1476229E1909C00B50B15 /* Menu.swift */,
+				003852C129E439BE004FA967 /* MenuItem.swift */,
+				003852EF29E5A688004FA967 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,6 +330,8 @@
 		D583A9CCC85C16254FE1F215 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00565A5129E6BB9E001D9DC5 /* GoogleSignIn.framework */,
+				00565A4D29E6B963001D9DC5 /* GoogleSignIn.framework */,
 				00F1474029E0303000B50B15 /* FirebaseCore.framework */,
 				00F1473D29E0302700B50B15 /* FirebaseFirestore.framework */,
 				00F1473A29E0301F00B50B15 /* FirebaseAuth.framework */,
@@ -307,6 +367,8 @@
 			dependencies = (
 			);
 			name = ReservationApp;
+			packageProductDependencies = (
+			);
 			productName = ReservationApp;
 			productReference = 009F780129DD0E2300A54837 /* ReservationApp.app */;
 			productType = "com.apple.product-type.application";
@@ -335,6 +397,8 @@
 				Base,
 			);
 			mainGroup = 009F77F829DD0E2200A54837;
+			packageReferences = (
+			);
 			productRefGroup = 009F780229DD0E2300A54837 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -351,6 +415,7 @@
 			files = (
 				009F781129DD0E2700A54837 /* LaunchScreen.storyboard in Resources */,
 				009F780E29DD0E2700A54837 /* Assets.xcassets in Resources */,
+				003852B729E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist in Resources */,
 				00F1473529E01E9200B50B15 /* GoogleService-Info.plist in Resources */,
 				009F780C29DD0E2300A54837 /* Main.storyboard in Resources */,
 			);
@@ -405,24 +470,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003852C229E439BE004FA967 /* MenuItem.swift in Sources */,
 				00B14B7E29DF47ED0059CD83 /* UILabelHelper.swift in Sources */,
 				00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */,
 				00B14B8229DFB5DA0059CD83 /* UIStackViewHelper.swift in Sources */,
 				00F1476929E1926700B50B15 /* UIViewHelper.swift in Sources */,
+				003852BF29E40FB1004FA967 /* GoogleSignInModel.swift in Sources */,
 				00B14B8029DFB4AF0059CD83 /* UITextFieldHelper.swift in Sources */,
+				003852E729E54902004FA967 /* MenuHeader.swift in Sources */,
 				00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */,
 				00B14B8829DFEE430059CD83 /* UIImageViewHelpler.swift in Sources */,
 				00F1476B29E1A0BE00B50B15 /* OnboardingViewController.swift in Sources */,
+				003852EB29E59F81004FA967 /* CategoryCell.swift in Sources */,
 				00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */,
+				003852F229E5ADFA004FA967 /* FirestoreManager.swift in Sources */,
 				009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */,
 				00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */,
-				00F1476329E1909C00B50B15 /* Menu.swift in Sources */,
+				003852E929E5599F004FA967 /* MainTabBar.swift in Sources */,
+				003852F029E5A688004FA967 /* Category.swift in Sources */,
 				009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */,
 				00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */,
+				003852EE29E5A551004FA967 /* CategoryCollectionCell.swift in Sources */,
 				009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */,
 				00F1476529E190BA00B50B15 /* MenuViewModel.swift in Sources */,
 				00F1474829E04A4C00B50B15 /* Users.swift in Sources */,
-				00F1474F29E12C3C00B50B15 /* ServiceManager.swift in Sources */,
+				00F1474F29E12C3C00B50B15 /* AuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

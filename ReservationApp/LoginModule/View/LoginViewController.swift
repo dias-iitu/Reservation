@@ -13,7 +13,7 @@ class LoginViewController: UIViewController {
     private let entryAnotherAccount = UIImageView(image: #imageLiteral(resourceName: "Frame 15"), contentMode: .scaleAspectFill)
     
     private let createNewAccountButton = UIButton(title: "Создать", titleColor: .red)
-    private let isPasswordHiddenButton = UIButton(backgroundImage: #imageLiteral(resourceName: "passEyes-open"))
+    private let isPasswordHiddenButton = UIButton(backgroundImage: #imageLiteral(resourceName: "passEyes-closed"))
     private let restorePasswordButton = UIButton(title: "Забыли пароль?",
                                                  titleColor: .lightGray)
     private let entryWithGoogleAccountButton = UIButton(backgroundImage: #imageLiteral(resourceName: "googleAccount"))
@@ -127,8 +127,12 @@ class LoginViewController: UIViewController {
         setupLayout()
         addTargets()
         view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-        navigationController?.navigationBar.isHidden = true
         passwordErrorTitle.isHidden = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = true
     }
     
     private func setupLayout() {
@@ -204,9 +208,13 @@ class LoginViewController: UIViewController {
         entryButton.addTarget(self, action: #selector(signInUser), for: .touchUpInside)
         createNewAccountButton.addTarget(self, action: #selector(moveToRegistration), for: .touchUpInside)
         isPasswordHiddenButton.addTarget(self, action: #selector(isHiddenPassword), for: .touchUpInside)
-//        entryWithGoogleAccountButton.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
+        entryWithGoogleAccountButton.addTarget(self, action: #selector(loginWithGoogle), for: .touchUpInside)
 //        entryWithFacebookAccountButton.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
 //        restorePasswordButton.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
+    }
+    
+    @objc private func loginWithGoogle() {
+        
     }
     
     @objc private func isHiddenPassword() {
