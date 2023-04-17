@@ -10,12 +10,20 @@
 		003852B729E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 003852B629E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist */; };
 		003852BF29E40FB1004FA967 /* GoogleSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852BE29E40FB1004FA967 /* GoogleSignInModel.swift */; };
 		003852C229E439BE004FA967 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852C129E439BE004FA967 /* MenuItem.swift */; };
-		003852E729E54902004FA967 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852E629E54902004FA967 /* MenuHeader.swift */; };
 		003852E929E5599F004FA967 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852E829E5599E004FA967 /* MainTabBar.swift */; };
-		003852EB29E59F81004FA967 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852EA29E59F81004FA967 /* CategoryCell.swift */; };
-		003852EE29E5A551004FA967 /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852ED29E5A551004FA967 /* CategoryCollectionCell.swift */; };
 		003852F029E5A688004FA967 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852EF29E5A688004FA967 /* Category.swift */; };
 		003852F229E5ADFA004FA967 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852F129E5ADFA004FA967 /* FirestoreManager.swift */; };
+		00565A5A29EAA3CB001D9DC5 /* CompositionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A5929EAA3CB001D9DC5 /* CompositionalLayout.swift */; };
+		00565A5C29EAA67F001D9DC5 /* SectionDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A5B29EAA67F001D9DC5 /* SectionDecorationView.swift */; };
+		00565A5E29EAA800001D9DC5 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A5D29EAA800001D9DC5 /* BannerCell.swift */; };
+		00565A6029EAAAFC001D9DC5 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A5F29EAAAFC001D9DC5 /* CategoriesCell.swift */; };
+		00565A6229EAACD0001D9DC5 /* AllDishesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A6129EAACD0001D9DC5 /* AllDishesCell.swift */; };
+		00565A6429EAC2C9001D9DC5 /* CategoriesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A6329EAC2C9001D9DC5 /* CategoriesHeader.swift */; };
+		00565A6629EACED5001D9DC5 /* AllDishesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A6529EACED5001D9DC5 /* AllDishesHeader.swift */; };
+		00565A6C29EADE56001D9DC5 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A6B29EADE56001D9DC5 /* ReservationViewController.swift */; };
+		00565A7229EADEA8001D9DC5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A7129EADEA8001D9DC5 /* CartViewController.swift */; };
+		00565A7829EADEEF001D9DC5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A7729EADEEF001D9DC5 /* AccountViewController.swift */; };
+		00565A7A29EC2DD6001D9DC5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A7929EC2DD5001D9DC5 /* StorageManager.swift */; };
 		009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780429DD0E2300A54837 /* AppDelegate.swift */; };
 		009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780629DD0E2300A54837 /* SceneDelegate.swift */; };
 		009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780829DD0E2300A54837 /* LoginViewController.swift */; };
@@ -44,14 +52,22 @@
 		003852B629E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
 		003852BE29E40FB1004FA967 /* GoogleSignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoogleSignInModel.swift; path = ReservationApp/Utilities/GoogleSignInModel.swift; sourceTree = SOURCE_ROOT; };
 		003852C129E439BE004FA967 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = ReservationApp/Utilities/MenuItem.swift; sourceTree = SOURCE_ROOT; };
-		003852E629E54902004FA967 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
 		003852E829E5599E004FA967 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
-		003852EA29E59F81004FA967 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
-		003852ED29E5A551004FA967 /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionCell.swift; sourceTree = "<group>"; };
 		003852EF29E5A688004FA967 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ReservationApp/MenuModule/View/Cells/CollectionCell/Category.swift; sourceTree = SOURCE_ROOT; };
 		003852F129E5ADFA004FA967 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 		00565A4D29E6B963001D9DC5 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00565A5129E6BB9E001D9DC5 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00565A5929EAA3CB001D9DC5 /* CompositionalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayout.swift; sourceTree = "<group>"; };
+		00565A5B29EAA67F001D9DC5 /* SectionDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDecorationView.swift; sourceTree = "<group>"; };
+		00565A5D29EAA800001D9DC5 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		00565A5F29EAAAFC001D9DC5 /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		00565A6129EAACD0001D9DC5 /* AllDishesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishesCell.swift; sourceTree = "<group>"; };
+		00565A6329EAC2C9001D9DC5 /* CategoriesHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesHeader.swift; sourceTree = "<group>"; };
+		00565A6529EACED5001D9DC5 /* AllDishesHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishesHeader.swift; sourceTree = "<group>"; };
+		00565A6B29EADE56001D9DC5 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		00565A7129EADEA8001D9DC5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		00565A7729EADEEF001D9DC5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		00565A7929EC2DD5001D9DC5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		009F780129DD0E2300A54837 /* ReservationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009F780429DD0E2300A54837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009F780629DD0E2300A54837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,8 +114,10 @@
 		003852C329E439D7004FA967 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				003852EA29E59F81004FA967 /* CategoryCell.swift */,
-				003852EC29E5A526004FA967 /* CollectionCell */,
+				00565A5B29EAA67F001D9DC5 /* SectionDecorationView.swift */,
+				00565A5D29EAA800001D9DC5 /* BannerCell.swift */,
+				00565A5F29EAAAFC001D9DC5 /* CategoriesCell.swift */,
+				00565A6129EAACD0001D9DC5 /* AllDishesCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -115,17 +133,106 @@
 		003852E529E548D3004FA967 /* HeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				003852E629E54902004FA967 /* MenuHeader.swift */,
+				00565A6329EAC2C9001D9DC5 /* CategoriesHeader.swift */,
+				00565A6529EACED5001D9DC5 /* AllDishesHeader.swift */,
 			);
 			path = HeaderView;
 			sourceTree = "<group>";
 		};
-		003852EC29E5A526004FA967 /* CollectionCell */ = {
+		00565A6729EADDEC001D9DC5 /* ReservationModule */ = {
 			isa = PBXGroup;
 			children = (
-				003852ED29E5A551004FA967 /* CategoryCollectionCell.swift */,
+				00565A6A29EADE11001D9DC5 /* Model */,
+				00565A6929EADE06001D9DC5 /* View */,
+				00565A6829EADDFC001D9DC5 /* ViewModel */,
 			);
-			path = CollectionCell;
+			path = ReservationModule;
+			sourceTree = "<group>";
+		};
+		00565A6829EADDFC001D9DC5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00565A6929EADE06001D9DC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00565A6B29EADE56001D9DC5 /* ReservationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00565A6A29EADE11001D9DC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00565A6D29EADE75001D9DC5 /* CartModule */ = {
+			isa = PBXGroup;
+			children = (
+				00565A7029EADE8E001D9DC5 /* Model */,
+				00565A6F29EADE88001D9DC5 /* View */,
+				00565A6E29EADE81001D9DC5 /* ViewModel */,
+			);
+			path = CartModule;
+			sourceTree = "<group>";
+		};
+		00565A6E29EADE81001D9DC5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00565A6F29EADE88001D9DC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00565A7129EADEA8001D9DC5 /* CartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00565A7029EADE8E001D9DC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00565A7329EADEC2001D9DC5 /* AccountModule */ = {
+			isa = PBXGroup;
+			children = (
+				00565A7629EADEE0001D9DC5 /* Model */,
+				00565A7529EADEDB001D9DC5 /* View */,
+				00565A7429EADED1001D9DC5 /* ViewModel */,
+			);
+			path = AccountModule;
+			sourceTree = "<group>";
+		};
+		00565A7429EADED1001D9DC5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00565A7529EADEDB001D9DC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00565A7729EADEEF001D9DC5 /* AccountViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00565A7629EADEE0001D9DC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		009F77F829DD0E2200A54837 = {
@@ -149,6 +256,9 @@
 		009F780329DD0E2300A54837 /* ReservationApp */ = {
 			isa = PBXGroup;
 			children = (
+				00565A7329EADEC2001D9DC5 /* AccountModule */,
+				00565A6D29EADE75001D9DC5 /* CartModule */,
+				00565A6729EADDEC001D9DC5 /* ReservationModule */,
 				003852C429E43A00004FA967 /* TabBarModule */,
 				00F1475829E1858D00B50B15 /* MenuModule */,
 				00F1474D29E12C1D00B50B15 /* ServiceManager */,
@@ -243,6 +353,7 @@
 				00B14B8329DFC0620059CD83 /* UIButtonHelper.swift */,
 				00B14B8729DFEE430059CD83 /* UIImageViewHelpler.swift */,
 				00F1476829E1926700B50B15 /* UIViewHelper.swift */,
+				00565A5929EAA3CB001D9DC5 /* CompositionalLayout.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -286,6 +397,7 @@
 			children = (
 				00F1474E29E12C3C00B50B15 /* AuthManager.swift */,
 				003852F129E5ADFA004FA967 /* FirestoreManager.swift */,
+				00565A7929EC2DD5001D9DC5 /* StorageManager.swift */,
 			);
 			path = ServiceManager;
 			sourceTree = "<group>";
@@ -472,25 +584,33 @@
 			files = (
 				003852C229E439BE004FA967 /* MenuItem.swift in Sources */,
 				00B14B7E29DF47ED0059CD83 /* UILabelHelper.swift in Sources */,
+				00565A7829EADEEF001D9DC5 /* AccountViewController.swift in Sources */,
 				00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */,
+				00565A5E29EAA800001D9DC5 /* BannerCell.swift in Sources */,
+				00565A7229EADEA8001D9DC5 /* CartViewController.swift in Sources */,
 				00B14B8229DFB5DA0059CD83 /* UIStackViewHelper.swift in Sources */,
+				00565A6C29EADE56001D9DC5 /* ReservationViewController.swift in Sources */,
 				00F1476929E1926700B50B15 /* UIViewHelper.swift in Sources */,
 				003852BF29E40FB1004FA967 /* GoogleSignInModel.swift in Sources */,
 				00B14B8029DFB4AF0059CD83 /* UITextFieldHelper.swift in Sources */,
-				003852E729E54902004FA967 /* MenuHeader.swift in Sources */,
+				00565A6029EAAAFC001D9DC5 /* CategoriesCell.swift in Sources */,
 				00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */,
 				00B14B8829DFEE430059CD83 /* UIImageViewHelpler.swift in Sources */,
 				00F1476B29E1A0BE00B50B15 /* OnboardingViewController.swift in Sources */,
-				003852EB29E59F81004FA967 /* CategoryCell.swift in Sources */,
+				00565A6429EAC2C9001D9DC5 /* CategoriesHeader.swift in Sources */,
+				00565A5A29EAA3CB001D9DC5 /* CompositionalLayout.swift in Sources */,
 				00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */,
+				00565A6229EAACD0001D9DC5 /* AllDishesCell.swift in Sources */,
 				003852F229E5ADFA004FA967 /* FirestoreManager.swift in Sources */,
+				00565A5C29EAA67F001D9DC5 /* SectionDecorationView.swift in Sources */,
 				009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */,
 				00F1474429E03DE400B50B15 /* LoginViewModel.swift in Sources */,
+				00565A6629EACED5001D9DC5 /* AllDishesHeader.swift in Sources */,
+				00565A7A29EC2DD6001D9DC5 /* StorageManager.swift in Sources */,
 				003852E929E5599F004FA967 /* MainTabBar.swift in Sources */,
 				003852F029E5A688004FA967 /* Category.swift in Sources */,
 				009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */,
 				00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */,
-				003852EE29E5A551004FA967 /* CategoryCollectionCell.swift in Sources */,
 				009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */,
 				00F1476529E190BA00B50B15 /* MenuViewModel.swift in Sources */,
 				00F1474829E04A4C00B50B15 /* Users.swift in Sources */,

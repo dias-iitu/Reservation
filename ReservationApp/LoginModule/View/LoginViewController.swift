@@ -243,8 +243,8 @@ class LoginViewController: UIViewController {
         } else {
             viewModel.logInUser(email: email, password: password)
             
-            let menuVC = MenuViewController()
-            navigationController?.pushViewController(menuVC, animated: true)
+            let mainTabBar = MainTabBar()
+            navigationController?.pushViewController(mainTabBar, animated: true)
         }
     }
     
