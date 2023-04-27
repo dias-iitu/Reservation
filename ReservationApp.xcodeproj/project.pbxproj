@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0025AF5A29F3BB8E00ED1FE7 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025AF5929F3BB8E00ED1FE7 /* CartViewModel.swift */; };
+		0025AF5C29F3BC1500ED1FE7 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025AF5B29F3BC1500ED1FE7 /* Position.swift */; };
+		0025AF5F29F9061A00ED1FE7 /* ReservationEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025AF5E29F9061A00ED1FE7 /* ReservationEmptyView.swift */; };
+		0025AF6229F90AF200ED1FE7 /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025AF6129F90AF100ED1FE7 /* ReservationCell.swift */; };
 		003852B729E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 003852B629E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist */; };
 		003852BF29E40FB1004FA967 /* GoogleSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852BE29E40FB1004FA967 /* GoogleSignInModel.swift */; };
 		003852C229E439BE004FA967 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003852C129E439BE004FA967 /* MenuItem.swift */; };
@@ -24,6 +28,12 @@
 		00565A7229EADEA8001D9DC5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A7129EADEA8001D9DC5 /* CartViewController.swift */; };
 		00565A7829EADEEF001D9DC5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A7729EADEEF001D9DC5 /* AccountViewController.swift */; };
 		00565A7A29EC2DD6001D9DC5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00565A7929EC2DD5001D9DC5 /* StorageManager.swift */; };
+		009C742B29FAA1C100C6B810 /* AddInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C742A29FAA1C100C6B810 /* AddInfoController.swift */; };
+		009C742E29FAB6A500C6B810 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C742D29FAB6A500C6B810 /* DateCell.swift */; };
+		009C743029FAB6BA00C6B810 /* ReservationTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C742F29FAB6BA00C6B810 /* ReservationTimeCell.swift */; };
+		009C743429FAB74200C6B810 /* GuestCountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C743329FAB74200C6B810 /* GuestCountCell.swift */; };
+		009C743629FAB77900C6B810 /* SelectTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C743529FAB77900C6B810 /* SelectTableCell.swift */; };
+		009C743829FAE8D700C6B810 /* WhatAreYouCelebratingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C743729FAE8D700C6B810 /* WhatAreYouCelebratingCell.swift */; };
 		009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780429DD0E2300A54837 /* AppDelegate.swift */; };
 		009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780629DD0E2300A54837 /* SceneDelegate.swift */; };
 		009F780929DD0E2300A54837 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F780829DD0E2300A54837 /* LoginViewController.swift */; };
@@ -49,6 +59,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0025AF5929F3BB8E00ED1FE7 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		0025AF5B29F3BC1500ED1FE7 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		0025AF5E29F9061A00ED1FE7 /* ReservationEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationEmptyView.swift; sourceTree = "<group>"; };
+		0025AF6129F90AF100ED1FE7 /* ReservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
 		003852B629E3E405004FA967 /* client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_760406798747-pdc0c8h325q2450jigeimtqupcbe0ahg.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
 		003852BE29E40FB1004FA967 /* GoogleSignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoogleSignInModel.swift; path = ReservationApp/Utilities/GoogleSignInModel.swift; sourceTree = SOURCE_ROOT; };
 		003852C129E439BE004FA967 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = ReservationApp/Utilities/MenuItem.swift; sourceTree = SOURCE_ROOT; };
@@ -68,6 +82,12 @@
 		00565A7129EADEA8001D9DC5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		00565A7729EADEEF001D9DC5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		00565A7929EC2DD5001D9DC5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		009C742A29FAA1C100C6B810 /* AddInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoController.swift; sourceTree = "<group>"; };
+		009C742D29FAB6A500C6B810 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		009C742F29FAB6BA00C6B810 /* ReservationTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationTimeCell.swift; sourceTree = "<group>"; };
+		009C743329FAB74200C6B810 /* GuestCountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestCountCell.swift; sourceTree = "<group>"; };
+		009C743529FAB77900C6B810 /* SelectTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTableCell.swift; sourceTree = "<group>"; };
+		009C743729FAE8D700C6B810 /* WhatAreYouCelebratingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatAreYouCelebratingCell.swift; sourceTree = "<group>"; };
 		009F780129DD0E2300A54837 /* ReservationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009F780429DD0E2300A54837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009F780629DD0E2300A54837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +131,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0025AF5D29F905B800ED1FE7 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				0025AF5E29F9061A00ED1FE7 /* ReservationEmptyView.swift */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		0025AF6029F90AD000ED1FE7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0025AF6129F90AF100ED1FE7 /* ReservationCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		003852C329E439D7004FA967 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +195,9 @@
 		00565A6929EADE06001D9DC5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				009C742529FAA0EF00C6B810 /* AddInfoReservationModule */,
+				0025AF6029F90AD000ED1FE7 /* Cell */,
+				0025AF5D29F905B800ED1FE7 /* EmptyView */,
 				00565A6B29EADE56001D9DC5 /* ReservationViewController.swift */,
 			);
 			path = View;
@@ -184,6 +223,7 @@
 		00565A6E29EADE81001D9DC5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0025AF5929F3BB8E00ED1FE7 /* CartViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,6 +239,7 @@
 		00565A7029EADE8E001D9DC5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0025AF5B29F3BC1500ED1FE7 /* Position.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +274,51 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		009C742529FAA0EF00C6B810 /* AddInfoReservationModule */ = {
+			isa = PBXGroup;
+			children = (
+				009C742929FAA1A100C6B810 /* ViewModel */,
+				009C742829FAA19A00C6B810 /* Model */,
+				009C742629FAA11C00C6B810 /* View */,
+			);
+			path = AddInfoReservationModule;
+			sourceTree = "<group>";
+		};
+		009C742629FAA11C00C6B810 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				009C742A29FAA1C100C6B810 /* AddInfoController.swift */,
+				009C742C29FAB66F00C6B810 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		009C742829FAA19A00C6B810 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		009C742929FAA1A100C6B810 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		009C742C29FAB66F00C6B810 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				009C742D29FAB6A500C6B810 /* DateCell.swift */,
+				009C742F29FAB6BA00C6B810 /* ReservationTimeCell.swift */,
+				009C743329FAB74200C6B810 /* GuestCountCell.swift */,
+				009C743529FAB77900C6B810 /* SelectTableCell.swift */,
+				009C743729FAE8D700C6B810 /* WhatAreYouCelebratingCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		009F77F829DD0E2200A54837 = {
@@ -587,7 +673,9 @@
 				00565A7829EADEEF001D9DC5 /* AccountViewController.swift in Sources */,
 				00F1475D29E185C300B50B15 /* MenuViewController.swift in Sources */,
 				00565A5E29EAA800001D9DC5 /* BannerCell.swift in Sources */,
+				0025AF6229F90AF200ED1FE7 /* ReservationCell.swift in Sources */,
 				00565A7229EADEA8001D9DC5 /* CartViewController.swift in Sources */,
+				0025AF5A29F3BB8E00ED1FE7 /* CartViewModel.swift in Sources */,
 				00B14B8229DFB5DA0059CD83 /* UIStackViewHelper.swift in Sources */,
 				00565A6C29EADE56001D9DC5 /* ReservationViewController.swift in Sources */,
 				00F1476929E1926700B50B15 /* UIViewHelper.swift in Sources */,
@@ -596,10 +684,15 @@
 				00565A6029EAAAFC001D9DC5 /* CategoriesCell.swift in Sources */,
 				00F1475329E1434F00B50B15 /* RegistrationViewModel.swift in Sources */,
 				00B14B8829DFEE430059CD83 /* UIImageViewHelpler.swift in Sources */,
+				009C743429FAB74200C6B810 /* GuestCountCell.swift in Sources */,
 				00F1476B29E1A0BE00B50B15 /* OnboardingViewController.swift in Sources */,
 				00565A6429EAC2C9001D9DC5 /* CategoriesHeader.swift in Sources */,
+				0025AF5F29F9061A00ED1FE7 /* ReservationEmptyView.swift in Sources */,
+				009C743829FAE8D700C6B810 /* WhatAreYouCelebratingCell.swift in Sources */,
 				00565A5A29EAA3CB001D9DC5 /* CompositionalLayout.swift in Sources */,
 				00F1475129E12ECD00B50B15 /* RegistrationViewController.swift in Sources */,
+				009C743029FAB6BA00C6B810 /* ReservationTimeCell.swift in Sources */,
+				009C743629FAB77900C6B810 /* SelectTableCell.swift in Sources */,
 				00565A6229EAACD0001D9DC5 /* AllDishesCell.swift in Sources */,
 				003852F229E5ADFA004FA967 /* FirestoreManager.swift in Sources */,
 				00565A5C29EAA67F001D9DC5 /* SectionDecorationView.swift in Sources */,
@@ -608,7 +701,10 @@
 				00565A6629EACED5001D9DC5 /* AllDishesHeader.swift in Sources */,
 				00565A7A29EC2DD6001D9DC5 /* StorageManager.swift in Sources */,
 				003852E929E5599F004FA967 /* MainTabBar.swift in Sources */,
+				009C742B29FAA1C100C6B810 /* AddInfoController.swift in Sources */,
 				003852F029E5A688004FA967 /* Category.swift in Sources */,
+				009C742E29FAB6A500C6B810 /* DateCell.swift in Sources */,
+				0025AF5C29F3BC1500ED1FE7 /* Position.swift in Sources */,
 				009F780529DD0E2300A54837 /* AppDelegate.swift in Sources */,
 				00B14B8429DFC0620059CD83 /* UIButtonHelper.swift in Sources */,
 				009F780729DD0E2300A54837 /* SceneDelegate.swift in Sources */,

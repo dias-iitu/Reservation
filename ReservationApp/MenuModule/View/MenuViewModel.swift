@@ -3,18 +3,35 @@ import UIKit
 
 class MenuViewModel {
     
+    var model: MenuItem!
+    
+    var sumArray = [Int]()
     var bannerModels = [BannerInfo]()
     var categoryModels = [ImageName]()
     var mainModels = [MainModel]()
+    var positions = [Position]()
     var reloadData: (() -> Void)?
     var allDishesModel: [MenuItem] = [] {
         didSet {
             reloadData?()
         }
     }
+
+    var cost: Int {
+        var sum = 0
+        
+        for pos in positions {
+            sum += pos.cost
+        }
+        return sum
+    }
     
-    
-   // var model = [[Any]]()
+    func addItems() {
+        DispatchQueue.main.async { [weak self] in
+            self?.sumArray.append(self?.cost ?? 0)
+            print("3----------------\(self?.sumArray.count)")
+        }
+    }
     
     func fetchCategoryItems() {
         

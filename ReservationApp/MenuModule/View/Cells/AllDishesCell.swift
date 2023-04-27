@@ -2,22 +2,13 @@ import UIKit
 import Kingfisher
 
 class AllDishesCell: UICollectionViewCell {
-    
+
     static let allDishesId = "allDishesId"
+    var count = 0
     
+    var incrementCount: ((Int) -> ())?
+    var decrementCount: ((Int) -> ())?
     
-//    var model: MenuItem? {
-//        didSet {
-//            guard let data = model else { return }
-//            print("IMAGE1======\(data.dishImage)")
-//            dishImage.kf.setImage(with: URL(string: data.dishImage))
-//            print("KINGFisher ============ \(dishImage.kf.setImage(with: URL(string: data.dishImage)))")
-//            print("IMAGE2======\(data.dishImage)")
-//            dishName.text = data.dishName
-//            dishPrice.text = String(data.dishPrice)
-//            dishRatingCount.text = String(data.dishRating)
-//        }
-//    }
     private let incrementButtonStack = UIStackView(
         distribution: .fillEqually,
         axis: .horizontal,
@@ -65,7 +56,7 @@ class AllDishesCell: UICollectionViewCell {
         numberOfLines: 0
     )
     
-    private let dishPrice = UILabel(
+    private let dishPriceCount = UILabel(
         title: "",
         alignment: .left,
         textColor: .black,
@@ -77,17 +68,49 @@ class AllDishesCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupLayout()
+        setupTargets()
         incrementButtonStack.isHidden = true
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    private func setupTargets() {
+        incrementButton.addTarget(self, action: #selector(addCount), for: .touchUpInside)
+        decrementButton.addTarget(self, action: #selector(removeCount), for: .touchUpInside)
+        plusButton.addTarget(self, action: #selector(startAddCount), for: .touchUpInside)
+    }
+    
+    @objc private func startAddCount() {
+        count += 1
+        dishCountTitle.text = "\(count)"
+        plusButton.isHidden = true
+        incrementButtonStack.isHidden = false
+        incrementCount?(count)
+    }
+    
+    @objc private func addCount() {
+        count += 1
+        dishCountTitle.text = "\(count)"
+        incrementCount?(count)
+    }
 
+    @objc private func removeCount() {
+        count -= 1
+        dishCountTitle.text = "\(count)"
+        if count == 0 {
+            incrementButtonStack.isHidden = true
+            plusButton.isHidden = false
+        }
+        
+        decrementCount?(count)
+    }
+    
     private func setupLayout() {
-        [dishImage, dishName, dishPrice, ratingStack, plusButton, incrementButtonStack].forEach { contentView.addSubview($0) }
+        [dishImage, dishName, dishPriceCount, ratingStack, plusButton, incrementButtonStack].forEach { contentView.addSubview($0) }
         [dishRatingStar, dishRatingCount].forEach { ratingStack.addArrangedSubview($0) }
-        [incrementButton, dishCountTitle, decrementButton].forEach { incrementButtonStack.addArrangedSubview($0) }
+        [decrementButton, dishCountTitle, incrementButton].forEach { incrementButtonStack.addArrangedSubview($0) }
         
         NSLayoutConstraint.activate([
             dishImage.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
@@ -98,12 +121,12 @@ class AllDishesCell: UICollectionViewCell {
             dishName.leadingAnchor.constraint(equalTo: dishImage.trailingAnchor, constant: 16),
             dishName.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
             
-            dishPrice.topAnchor.constraint(equalTo: dishName.bottomAnchor, constant: 10),
-            dishPrice.leadingAnchor.constraint(equalTo: dishImage.trailingAnchor, constant: 16),
-            dishPrice.heightAnchor.constraint(equalToConstant: 20),
+            dishPriceCount.topAnchor.constraint(equalTo: dishName.bottomAnchor, constant: 10),
+            dishPriceCount.leadingAnchor.constraint(equalTo: dishImage.trailingAnchor, constant: 16),
+            dishPriceCount.heightAnchor.constraint(equalToConstant: 20),
             
             ratingStack.topAnchor.constraint(equalTo: dishName.bottomAnchor, constant: 10),
-            ratingStack.leadingAnchor.constraint(equalTo: dishPrice.trailingAnchor, constant: 16),
+            ratingStack.leadingAnchor.constraint(equalTo: dishPriceCount.trailingAnchor, constant: 16),
             ratingStack.heightAnchor.constraint(equalToConstant: 20),
             
             plusButton.topAnchor.constraint(equalTo: ratingStack.bottomAnchor, constant: 8),
@@ -116,18 +139,15 @@ class AllDishesCell: UICollectionViewCell {
             incrementButtonStack.leadingAnchor.constraint(equalTo: dishImage.trailingAnchor, constant: 16),
             incrementButtonStack.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
            // incrementButtonStack.heightAnchor.constraint(equalToConstant: 56),
-            incrementButtonStack.widthAnchor.constraint(equalToConstant: 120)
+            incrementButtonStack.widthAnchor.constraint(equalToConstant: 80)
         ])
     }
     
     func configure(with model: MenuItem) {
         dishName.text = model.dishName
-        dishPrice.text = String(model.dishPrice)
+        dishPriceCount.text = String(model.dishPrice) + " \u{20B8}"
         dishRatingCount.text = String(model.dishRating)
         let imageUrl = URL(string: model.dishImage)
-        print("IMAGEURL ========== \(imageUrl)")
         dishImage.kf.setImage(with: imageUrl)
-        print("IMAGE1======\(model.dishImage)")
-        print("KINGFisher ============ \(dishImage.kf.setImage(with:imageUrl))")
     }
 }
